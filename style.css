@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+
+@media (min-width:641px){}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+main h1{
+    margin: 0;
+}
+header{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    margin: 2em -1em;
+}
+header a{
+    color: rgba(255, 2555, 255,0.5);
+    text-decoration: none; 
+    margin-right: 2em;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+header a:hover{
+    color: white;
+    font-size: 1.1rem;
+}
+main {
+	height: 100vh;
+	background-image: url(nandha-kumar-pj-0lNT_Yu7Rhs-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-left: 7em;
+	text-decoration: none;
+    background-position: 0em bottom;
+}
+main h1{
+     font-weight: 800;
+     color: rgba(255, 2555, 255,1);
+     font-family: 'Oswald', sans-serif;
+     font-size: 4rem;
+     display: block;
+     position: absolute;
+     top: 40%;
+     opacity: .7;
+     margin-left: 8em;
+}
+main button{
+     position: absolute;
+     top: 55%;
+     border: 0;
+     padding: 1.4em 6.5em;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     border-radius: .4em;
+     opacity: .5;
+     margin: 1em 10em;
+     box-shadow: .25em .25em .25em;
+     transition: 0.2s ease-in-out;
+}
+main button:hover{
+    opacity: .8;
+    cursor: pointer;
+    padding: 1.6em 6.7em;
+}
+.noDecoration{
+    text-decoration: none;
+    color: black;
+}
+.tomain{
+    border-radius: 100%;
+    border: 0;
+    background: #000;
+    color: white;
+    padding: 1em 1.2em;
+    opacity: .7;
+    font-weight: bolder;
+    float: right;
+    position: fixed;
+    z-index: 2;
+}
+.offers{
+    text-align: center;
+    padding-top: 4em;
+}
+.offers h1{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.cards-bg{
+
+}
+.cards{
+    background: rgba(0, 0, 0,0.3);
+    width: 12em;
+    padding: 1em 1em 1em 1em;
+    border-radius: .2em;
+    display: inline-block;
+    margin: 2em 2em 0 2em;
+    box-shadow: 0.2em 0.2em 1.5em;
+    transition: 0.5s ease-in-out;
+}
+#c1,#c2,#c3,#c4{
+    transition: 0.4 ease-in-out;
+}
+.cards img{
+    width: 2em;
+    height: 2em;
+}
+#c1:hover{
+    background-image: url(images/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+}
+#c2:hover{
+    background-image: url(images/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+#c3:hover{
+    background-image: url(images/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+#c4:hover{
+    background-image: url(images/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 10em;
+    opacity: 0.8;
+}
+footer h5{
+    font-weight: 800;
+    font-size: large;
+}
+footer i{
+    color: rgb(16, 68, 110);
+    transition: 0.3s ease-in-out;
+}
+footer i:hover{
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding: 0em 9em 4em 13em;
+}
+section .services-head{
+    text-align: center;
+}
+section .services-head h1{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.card-services-left{
+    margin-top: 4em;
+}
+.card-services-left span{
+    font-family: 'Oswald', sans-serif;
+}
+.card-services-left p{
+    line-height: 1.5em;
+}
+.card-services-left button {
+	margin: 0em 0em 1em 26em;
+	position: absolute;
+    border: 0;
+    background: #212529;
+	border-radius: 100%;
+    padding: 2em 2.1em;
+    transition: 1s;
+    box-shadow: 0.05em 0em 1em;
+}
+.card-services-left button:hover{
+    rotate: 360deg;
+    box-shadow: 0em 0em 0em;
+}
+.card-services-right{
+    margin-top: 4em;
+    padding-left: 6em;
+}
+.card-services-right span{
+    font-family: 'Oswald', sans-serif;
+}
+.card-services-right p{
+    line-height: 1.5em;
+    margin-left: 6.5em;
+}
+.card-services-right button{
+    position: absolute;
+    border: 0;
+    background: #212529;
+	border-radius: 100%;
+    padding: 2em 2.1em;
+    box-shadow: 0.05em 0em 1em;
+}
+.card-services-right button:hover{
+    rotate: -360deg;
+    transition: 1s ease-in-out;
+    box-shadow: 0em 0em 0em
+}
+#services-sec{
+    background: #f8f8f8;
+    margin-top: em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+@media (max-width:990px){
+    main h1{
+        font-weight: 800;
+        color: rgba(255, 2555, 255,1);
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+        display: block;
+        position: absolute;
+        top: 40%;
+        opacity: .7;
+        margin-left: 1em;
+   }
+    main{
+        padding-left: 0em;
+        text-align: center;
+        align-items: center;
+    }
+    main button{
+        margin: 10em -10em;
+    }
+    .container{
+        padding: 0 0 0 0;
+        display: initial;
+        align-items: center;
+        text-align: center;
+     }
+     .card-services-left{
+         margin-top: 4em;
+         align-items: center;
+         padding-right: 1em;
+     }
+     .card-services-left span{
+         font-family: 'Oswald', sans-serif;
+     }
+     .card-services-left p{
+         line-height: 1.5em;
+         
+     }
+     .card-services-left button {
+         border: 0;
+         background: #212529;
+         border-radius: 100%;
+         padding: 2em 2.1em;
+         transition: 1s;
+         box-shadow: 0.05em 0em 1em;
+         position: relative;
+         margin: 1em auto;
+     }
+     .card-services-right{
+        padding-left: 0em;
+        justify-content: center;
+        margin-right: 1em;
+        align-items: center;
+        padding-right: 0em;
+     }
+     .card-services-right button{
+         position: relative;
+         margin-left: auto !important;
+     
+     
+     }
+     .card-services-right p{
+         margin: 1em auto !important;
+     }
+}
+.for-form{
+    text-align: center;
+    padding: 10em 1em 1em 1em;
+}
+.for-form .check input{
+    display: inline;
+}
+form .check p{
+    display: inline;
+}
+form input[type="submit"] {
+	border: 0;
+	border-radius: 0.3em;
+	background: rgb(226, 226, 226);
+	margin-top: 3em;
+    padding: 1em 9em;
+    transition: 0.2s ease-in-out;
+}
+form input[type="submit"]:hover{
+    background: rgb(92, 92, 92);
+    cursor: pointer;
+}
+form input[type=checkbox]{
+    cursor: pointer;
+}
+form input[type=text]{
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
